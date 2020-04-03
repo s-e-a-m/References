@@ -1,5 +1,5 @@
 # References
 
  - [Bernardini, Vidolin - SLEAM - SMC05](https://www.academia.edu/16348988/Sustainable_live_electro-acoustic_music)
- - [Publison - Infernal Machine 90](https://medias.audiofanzine.com/files/publison-infernal-machine-manual-481512.pdf)
- - [Semantic Versioning](https://semver.org)
+ - [DRAFT. article 001](https://github.com/s-e-a-m/References/blob/master/draft-paper/LAC-20-SEAM-sent.pdf)
+ - [DRAFT. article 002](https://github.com/s-e-a-m/References/blob/master/draft-paper/SMCCIM_2020_paper_179-2.pdf)
