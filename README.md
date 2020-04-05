@@ -6,4 +6,4 @@
 
 ### PDF naming
 
-`YYYY-LASTNAME-Title.pdf`
+`YEAR-LASTNAME-Title.pdf`
