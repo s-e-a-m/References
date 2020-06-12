@@ -8,4 +8,4 @@
 
 ### set git case sensitive
 
-`git config --global core.ignorecase false
+`git config --global core.ignorecase false`
