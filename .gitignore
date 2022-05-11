@@ -3,6 +3,7 @@
 # Edit at https://www.gitignore.io/?templates=tex,osx,macos,linux,latex,jekyll,windows
 
 _dasistemare/
+Nono-Luigi/latex/*.pdf
 
 ### Jekyll ###
 _site/
