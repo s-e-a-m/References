@@ -76,7 +76,7 @@ empty/.style = {
 	\node [outs] (har) {HARMONIZER}; & \node[ctl](){};     & \node[ctl](){};    &                    & \node[ctl](){};    & \node[ctl](){};     & \node[ctl](){};     &                 &                 & \node[ctl](harr80){}; &           &                 &                 &  \\
 	\node [outs] (h1) {HALAPHON 1};  & \node[ctl](){};     &                    &                    &                    &                     &                     &                 &                 & \node[ctl](h1r80){}; &            &                 &                 &  \\
 	\node [outs] (h2) {HALAPHON 2};  &                     & \node[ctl](){};    &                    &                    &                     &                     &                 &                 & \node[ctl](h2r80){}; &            &                 &                 &  \\
-	\node [outs] (h3) {HALAPHON 3};  &                     &                    & \node[ctl](){};    &                    &                     &                     &                 &                 &                 &                 &                 &                 &  \\
+	\node [outs] (h3) {HALAPHON 3};  &                     &                    & \node[ctl](tbh3){};    &                    &                     &                     &                 &                 &                 &                 &                 &                 &  \\
 	\node [outs] (l1) {L 1};         &                     & \node[ctl](){};    & \node[ctl](){};    & \node[ctl](){};    & \node[ctl](){};     & \node[ctl](){};     & \node[ctl](){}; &                 & \node[ctl](){}; &                 & \node[ctl](){}; & \node[ctl](){}; & \node[ctl](h3l1){}; \\
 	\node [outs] (l2) {L 2};         &                     & \node[ctl](fl2){}; & \node[ctl](tb2){}; & \node[ctl](cs2){}; & \node[ctl](bng2){}; & \node[ctl](crt2){}; & \node[ctl](){}; &                 & \node[ctl](){}; &                 & \node[ctl](){}; & \node[ctl](){}; & \node[ctl](h3l2){}; \\
 	\node [outs] (l3) {L 3};         &                     &                    &                    &                    &                     &                     & \node[ctl](){}; &                 & \node[ctl](){}; &                 & \node[ctl](){}; & \node[ctl](){}; & \node[ctl](h3l3){}; \\
@@ -120,6 +120,7 @@ empty/.style = {
   \path (har) -- (harr80);
   \path (h1) -- (h1r80);
   \path (h2) -- (h2r80);
+  \path (h3) -- (tbh3);
   \path (idly) -- (l8d);
   \path (ir4) -- (l10r4);
   \path (ir80) -- (l8r8);
